@@ -45,8 +45,8 @@ Ensure that you have the following folder structure after downloading:
 
 './data/dense_setup_decaf7/dense_sun_decaf7.mat'
 
-# Butterfly Runing
-There are eight tasks in Butterfly_total.py file:
+# Flying Butterfly
+There are 8 tasks in Butterfly_total.py file:
 1. MNIST to SYND (M2S) under Pair-flip noise 20% (P20)
 2. MNIST to SYND (M2S) under Pair-flip noise 45% (P45)
 3. MNIST to SYND (M2S) under Symmetry-flip noise 20% (S20)
@@ -59,3 +59,11 @@ There are eight tasks in Butterfly_total.py file:
 You can specify one task and run Butterfly using 
 
 python Butterfly_total.py --Task_type 1 --> get results for the first task.
+
+There are 24 tasks in ButterflyNet_Amazon_data.py file. You can run 
+
+python ButterflyNet_Amazon_data.py --> get results for Amazon dataset.
+
+There are 3 tasks in ButterflyNet_Obj_data.py file. You can run 
+
+python ButterflyNet_Obj_data.py --> get results for BCIS dataset.
