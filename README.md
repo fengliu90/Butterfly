@@ -13,14 +13,14 @@ You can download MNIST and SYND data used in our paper from https://drive.google
 
 # Butterfly Runing
 There are eight tasks in Butterfly_total.py file:
-1. M2S P20
-2. M2S P45
-3. M2S S20
-4. M2S S45
-5. S2M P20
-6. S2M P45
-7. S2M S20
-8. S2M S45
+1. MNIST to SYND (M2S) under Pair-flip noise 20% (P20)
+2. MNIST to SYND (M2S) under Pair-flip noise 45% (P45)
+3. MNIST to SYND (M2S) under Symmetry-flip noise 20% (S20)
+4. MNIST to SYND (M2S) under Symmetry-flip noise 45% (S45)
+5. SYND to MNIST (S2M) under Pair-flip noise 20% (P20)
+6. SYND to MNIST (S2M) under Pair-flip noise 45% (P45)
+7. SYND to MNIST (S2M) under Symmetry-flip noise 45% (S45)
+8. SYND to MNIST (S2M) under Symmetry-flip noise 45% (S45)
 
 You can specify one task and run Butterfly using 
 
