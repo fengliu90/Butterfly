@@ -9,7 +9,18 @@ These python files require some basic scientific computing python packages, e.g.
 After you install anaconda, tensorflow and download MNIST and SYND data below, you can run codes successfully. Good luck!
 
 # Data download
-You can download MNIST and SYND data used in our paper from https://drive.google.com/file/d/1f4sepb0JXeSSftfAWd6KPa_AVoWA28rj/view?usp=sharing. You need to extract it to ./data file.
+You can download MNIST and SYND data used in our paper from https://drive.google.com/file/d/1f4sepb0JXeSSftfAWd6KPa_AVoWA28rj/view?usp=sharing.
+You can download Amazon and BCIS data used in our paper from https://drive.google.com/file/d/1hSXn8ctm2vMHu_iIhVS_xB4cq2JV34na/view?usp=sharing.
+Ensure that you have the following folder structure after downloading:
+'./data/synth_train_32x32.mat'
+'./data/synth_test_32x32.mat'
+'./data/train_mnist_32x32.npy'
+'./data/test_mnist_32x32.npy'
+'./data/amazon.mat'
+'./data/dense_setup_decaf7/dense_bing_decaf7.mat'
+'./data/dense_setup_decaf7/dense_caltech256_decaf7.mat'
+'./data/dense_setup_decaf7/dense_imagenet_decaf7.mat'
+'./data/dense_setup_decaf7/dense_sun_decaf7.mat'
 
 # Butterfly Runing
 There are eight tasks in Butterfly_total.py file:
