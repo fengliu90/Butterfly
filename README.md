@@ -1,5 +1,17 @@
 # Butterfly for Wildly Unsupervised Domain Adaptation
-This is the official site for the paper "Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation" (http://128.84.4.34/pdf/1905.07720).
+This is the official site for the paper "Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation" (http://128.84.4.34/pdf/1905.07720). This is a joint work with 
+
+Prof. Jie Lu (UTS)
+
+Dr. Bo Han (HKBU/RIKEN)
+
+Dr. Gang Niu (RIKEN)
+
+A/Prof. Guangquan Zhang (UTS)
+
+Prof. Masashi Sugiyama (UTokyo/RIKEN).
+
+This paper has been accepted by NeurIPS'19 LTS Workshop and under the second review of IEEE-TPAMI.
 
 # Software version
 TensorFlow version is 1.14.0. Python version is 3.7.3. CUDA version is 11.2.
