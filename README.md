@@ -1,15 +1,12 @@
 # Butterfly for Wildly Unsupervised Domain Adaptation
-This is the official site for the paper "Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation" (http://128.84.4.34/pdf/1905.07720). This is a joint work with 
+This is the official site for the paper "Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation" (http://128.84.4.34/pdf/1905.07720). This work is done by 
 
-Prof. Jie Lu (UTS)
-
-Dr. Bo Han (HKBU/RIKEN)
-
-Dr. Gang Niu (RIKEN)
-
-A/Prof. Guangquan Zhang (UTS)
-
-Prof. Masashi Sugiyama (UTokyo/RIKEN).
+- Dr. Feng Liu (UTS), Feng.Liu@uts.edu.au
+- Prof. Jie Lu (UTS), Jie.Lu@uts.edu.au
+- Dr. Bo Han (HKBU/RIKEN), Bhanml@comp.hkbu.edu.hk
+- Dr. Gang Niu (RIKEN), Gang.Niu@riken.jp
+- A/Prof. Guangquan Zhang (UTS), Guangquan.Zhang@uts.edu.au
+- Prof. Masashi Sugiyama (UTokyo/RIKEN), Sugi@k.u-tokyo.ac.jp.
 
 This paper has been accepted by NeurIPS'19 LTS Workshop and under the second review of IEEE-TPAMI.
 
@@ -57,23 +54,33 @@ There are 8 tasks in Butterfly_total.py file:
 8. SYND to MNIST (S2M) under Symmetry-flip noise 45% (S45)
 
 You can specify one task and run Butterfly using 
-
-python Butterfly_total.py --Task_type 1 --> get results for the first task.
+```
+python Butterfly_total.py --Task_type 1
+```
+--> get results for the first task.
 
 There are 24 tasks in ButterflyNet_Amazon_data.py file. You can run 
-
-python ButterflyNet_Amazon_data.py --> get results for Amazon dataset.
+```
+python ButterflyNet_Amazon_data.py
+```
+--> get results for Amazon dataset.
 
 There are 3 tasks in ButterflyNet_Obj_data.py file. You can run 
-
-python ButterflyNet_Obj_data.py --> get results for BCIS dataset.
+```
+python ButterflyNet_Obj_data.py
+```
+--> get results for BCIS dataset.
 
 # Citation
 If you are using this code for your own researching, please consider citing
-
+```
 @inproceedings{liu2019butterfly,
   title={Butterfly: A Panacea for All Difficulties in Wildly Unsupervised Domain Adaptation},
   author={Liu, F. and Lu, J. and Han, B. and Niu, G. and Zhang, G. and Sugiyama, M.},
   booktitle={NeurIPS LTS Workshop},
   year={2019}
 }
+```
+
+# Acknowledgment
+FL, JL and GZ were supported by the Australian Research Council (ARC) under FL190100149. BH was supported by the RGC Early Career Scheme No. 22200720 and NSFC Young Scientists Fund No. 62006202, HKBU Tier-1 Start-up Grant, HKBU CSD Start-up Grant, HKBU CSD Departmental Incentive Grant, and a RIKEN BAIHO Award. GN and MS were supported by JST AIP Acceleration Research Grant Number JPMJCR20U3, Japan. MS was also supported by the Institute for AI and Beyond, UTokyo. 
