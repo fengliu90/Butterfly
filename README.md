@@ -67,3 +67,13 @@ python ButterflyNet_Amazon_data.py --> get results for Amazon dataset.
 There are 3 tasks in ButterflyNet_Obj_data.py file. You can run 
 
 python ButterflyNet_Obj_data.py --> get results for BCIS dataset.
+
+# Citation
+If you are using this code for your own researching, please consider citing
+
+@inproceedings{liu2019butterfly,
+  title={Butterfly: A Panacea for All Difficulties in Wildly Unsupervised Domain Adaptation},
+  author={Liu, F. and Lu, J. and Han, B. and Niu, G. and Zhang, G. and Sugiyama, M.},
+  booktitle={NeurIPS LTS Workshop},
+  year={2019}
+}
